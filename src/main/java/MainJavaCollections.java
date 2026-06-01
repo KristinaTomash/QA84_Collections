@@ -9,10 +9,20 @@ public class MainJavaCollections {
         list.add("hello");
         list.add(true);
         System.out.println(list);
+
+        ArrayList<String> list1 = new ArrayList<String>();
+        list1.add("money");
+        list1.add("happy");
+        list1.add("Hi");
+        list1.add("bye");
+        System.out.println(list1);
+
     }
     /*
-     0.    1.    2.    3
-    [5, 34.23, hello, true]
+         0.    1.    2.    3
+   list [5, 34.23, hello, true]
+           0       1     2   3
+   list1 [money, happy, Hi, bye]
 
 
      */
