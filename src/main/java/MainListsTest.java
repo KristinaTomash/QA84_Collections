@@ -46,6 +46,15 @@ public class MainListsTest {
                 new ComparatorStringsReverse();
         list.sort(comp);
         System.out.println(list);
+        ComparatorStringsByLengthReverse comp2 =
+                new ComparatorStringsByLengthReverse();
+        list.sort(comp2);
+        System.out.println(list);
+
+        ComparatorStringsByABC comp3 =
+                new ComparatorStringsByABC();
+        list.sort(comp3);
+        System.out.println(list);
 
     }
  /*
